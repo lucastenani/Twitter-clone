@@ -86,10 +86,10 @@ const iconCSS = css`
 `;
 
 export const HomeIcon = styled(Home)`
-${iconCSS}
+  ${iconCSS}
 `;
 export const SearchIcon = styled(Search)`
-${iconCSS}
+  ${iconCSS}
 `;
 export const BellIcon = styled(Notifications)`
 ${iconCSS}

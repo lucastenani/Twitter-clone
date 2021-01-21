@@ -1,4 +1,5 @@
 import React from 'react';
+import Feed from '../Feed';
 import {
   Container,
   Banner,
@@ -46,6 +47,8 @@ import {
             </span>
           </FollowAge>
       </ProfileData>
+
+      <Feed />
     </Container>
   );
 }

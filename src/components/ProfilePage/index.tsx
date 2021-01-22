@@ -23,8 +23,7 @@ import {
         <h2>@lucastenani</h2>
 
         <p>
-          Software Engineer at <a href="https://www.lumis.com.br/"
-          target="_blank" rel="noopener noreferrer"> Lumis</a>
+          Software Engineer
         </p>
 
         <ul>

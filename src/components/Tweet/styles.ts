@@ -1,5 +1,6 @@
 import styled, { css } from 'styled-components';
-import { Retweet } from '@styled-icons/fa-solid/Retweet'
+import { Retweet } from '@styled-icons/fa-solid/Retweet';
+import { Share } from '@styled-icons/feather/Share';
 import { Chat, Favorite} from '../../styles/Icons';
 
 export const Container = styled.div`
@@ -150,3 +151,4 @@ export const iconCSS = css `
 export const CommentIcon = styled(Chat)`${iconCSS}`;
 export const RetweetedIcon = styled(Retweet)`${iconCSS}`;
 export const LikeIcon = styled(Favorite)`${iconCSS}`;
+export const ShareIcon = styled(Share)`${iconCSS}`;

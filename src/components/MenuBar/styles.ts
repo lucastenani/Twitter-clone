@@ -1,9 +1,9 @@
 import styled, { css } from "styled-components";
 import { Twitter } from "@styled-icons/bootstrap/Twitter";
 import { Bookmark } from "@styled-icons/boxicons-regular/Bookmark";
-import { Hashtag } from "@styled-icons/heroicons-outline/Hashtag";
-import { ListUl } from "@styled-icons/boxicons-regular/ListUl";
-import { MoreHoriz } from "@styled-icons/material-rounded/MoreHoriz";
+// import { Hashtag } from "@styled-icons/heroicons-outline/Hashtag";
+// import { ListUl } from "@styled-icons/boxicons-regular/ListUl";
+// import { MoreHoriz } from "@styled-icons/material-rounded/MoreHoriz";
 import {
   Home,
   Notifications,
@@ -117,9 +117,9 @@ export const EmailIcon = styled(Email)`${iconCSS}`;
 export const BookmarkIcon = styled(Bookmark)`${iconCSS}`;
 export const ProfileIcon = styled(Person)`${iconCSS}`;
 export const BellIcon = styled(Notifications)`${iconCSS}`;
-export const ExploreIcon = styled(Hashtag)`${iconCSS}`;
-export const ListIcon = styled(ListUl)`${iconCSS}`;
-export const MoreIcon = styled(MoreHoriz)`${iconCSS}`;
+// export const ExploreIcon = styled(Hashtag)`${iconCSS}`;
+// export const ListIcon = styled(ListUl)`${iconCSS}`;
+// export const MoreIcon = styled(MoreHoriz)`${iconCSS}`;
 export const ExitIcon = styled(ExitToApp)`
   display: none;
 

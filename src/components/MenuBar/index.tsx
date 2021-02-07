@@ -10,9 +10,9 @@ import {
   BookmarkIcon,
   ProfileIcon,
   BellIcon,
-  ExploreIcon,
-  ListIcon,
-  MoreIcon,
+  // ExploreIcon,
+  // ListIcon,
+  // MoreIcon,
   BotSide,
   Avatar,
   ProfileData,
@@ -29,10 +29,10 @@ const MenuBar: React.FC = () => {
         <span>Home</span>
       </MenuButton>
 
-      <MenuButton>
+      {/* <MenuButton>
         <ExploreIcon />
         <span>Explore</span>
-      </MenuButton>
+      </MenuButton> */}
 
       <MenuButton>
         <BellIcon />
@@ -49,20 +49,20 @@ const MenuBar: React.FC = () => {
         <span>Bookmarks</span>
       </MenuButton>
 
-      <MenuButton>
+      {/* <MenuButton>
         <ListIcon />
         <span>Lists</span>
-      </MenuButton>
+      </MenuButton> */}
 
       <MenuButton className="active">
         <ProfileIcon />
         <span>Profile</span>
       </MenuButton>
 
-      <MenuButton >
+      {/* <MenuButton >
         <MoreIcon />
         <span>More</span>
-      </MenuButton>
+      </MenuButton> */}
 
       <Button>
         <span>Tweet</span>

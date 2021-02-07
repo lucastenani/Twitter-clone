@@ -111,11 +111,57 @@ const iconCSS = css`
   height: 30px;
   color: var(--white);
 `;
-export const HomeIcon = styled(Home)`${iconCSS} `;
-export const EmailIcon = styled(Email)`${iconCSS} `;
-export const BookmarkIcon = styled(Bookmark)`${iconCSS} `;
-export const ProfileIcon = styled(Person)`${iconCSS} `;
-export const BellIcon = styled(Notifications)`${iconCSS} `;
-export const ExploreIcon = styled(Hashtag)`${iconCSS} `;
-export const ListIcon = styled(ListUl)`${iconCSS} `;
-export const MoreIcon = styled(MoreHoriz)`${iconCSS} `;
+
+export const HomeIcon = styled(Home)`${iconCSS}`;
+export const EmailIcon = styled(Email)`${iconCSS}`;
+export const BookmarkIcon = styled(Bookmark)`${iconCSS}`;
+export const ProfileIcon = styled(Person)`${iconCSS}`;
+export const BellIcon = styled(Notifications)`${iconCSS}`;
+export const ExploreIcon = styled(Hashtag)`${iconCSS}`;
+export const ListIcon = styled(ListUl)`${iconCSS}`;
+export const MoreIcon = styled(MoreHoriz)`${iconCSS}`;
+export const ExitIcon = styled(ExitToApp)`
+  display: none;
+
+  @media (min-width: 1280px) {
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    color: var(--white);
+    margin-left: 30px;
+    cursor: pointer;
+
+    &:hover {
+      > path {
+        color: var(--like);
+      }
+    }
+  }
+`;
+export const BotSide = styled.div`
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+`;
+export const Avatar = styled.div`
+  width: 39px;
+  height: 39px;
+  flex-shrink: 0;
+  border-radius: 50%;
+  background: var(--gray);
+`;
+export const ProfileData = styled.div`
+  display: none;
+
+  @media (min-width: 1280px) {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    font-size: 14px;
+
+    > span {
+      font-weight: normal;
+      color: var(--gray);
+    }
+  }
+`;

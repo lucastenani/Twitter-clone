@@ -1,6 +1,7 @@
 import React from 'react';
 import List from '../List';
 import FollowSuggestion from '../FollowSuggestion';
+import News from '../News';
 import {
   Container,
   SearchWrapper,
@@ -19,9 +20,9 @@ const SideBar: React.FC = () => {
         <List
           title="What’s happening"
           elements={[
-            <h1>Test</h1>,
-            <h1>Test</h1>,
-            <h1>Test</h1>
+           <News />,
+           <News />,
+           <News />
           ]}
         />
         <List

@@ -39,8 +39,7 @@ yarn start
 
 The page will reload if you make edits.
 
-
-## Licença :trident:
+## License :trident:
 
 The [MIT License](https://github.com/lucastenani/twitter-clone/blob/main/LICENSE) (MIT)
 

@@ -1,4 +1,5 @@
 {
+  "homepage": "https://lucastenani.github.io/twitter-clone",
   "name": "twitter-clone",
   "version": "0.1.0",
   "private": true,
@@ -44,6 +45,7 @@
     ]
   },
   "devDependencies": {
-    "@types/styled-components": "^5.1.7"
+    "@types/styled-components": "^5.1.7",
+    "gh-pages": "^5.0.0"
   }
 }
